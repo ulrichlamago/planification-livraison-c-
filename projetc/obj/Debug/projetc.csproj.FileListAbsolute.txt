@@ -1,0 +1,17 @@
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\bin\Debug\projetc.exe.config
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\bin\Debug\projetc.exe
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\bin\Debug\projetc.pdb
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.csprojResolveAssemblyReference.cache
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.Form1.resources
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.Properties.Resources.resources
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.csproj.GenerateResource.Cache
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.exe
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.pdb
+c:\users\dell inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.principale.resources
+C:\Users\DELL inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.FenetreColis.resources
+C:\Users\DELL inspiron (i5)\Documents\Visual Studio 2015\Projects\projetc\projetc\bin\Debug\MySql.Data.DLL
+C:\Users\DELL inspiron (i5)\Documents\Visual Studio 2015\Projects\projetc\projetc\obj\Debug\projetc.interfaceNouveauColis.resources
+C:\Users\DELL inspiron (i5)\Documents\Visual Studio 2015\Projects\projetc\projetc\obj\Debug\projetc.interfaceNouveauClient.resources
+C:\Users\DELL inspiron (i5)\Documents\Visual Studio 2015\Projects\projetc\projetc\obj\Debug\projetc.interfaceNouveauEmployer.resources
+C:\Users\DELL inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.motsdepasseoublier.resources
+C:\Users\DELL inspiron (i5)\documents\visual studio 2015\Projects\projetc\projetc\obj\Debug\projetc.interfacetest.resources

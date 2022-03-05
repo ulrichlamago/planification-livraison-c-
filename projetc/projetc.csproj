@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3465C6FE-DD9D-4F22-A5E4-CB3F8D422BEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>projetc</RootNamespace>
+    <AssemblyName>projetc</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="client.cs" />
+    <Compile Include="CommandeBD.cs" />
+    <Compile Include="EntiteColis.cs" />
+    <Compile Include="EntiteEmployer.cs" />
+    <Compile Include="EntiteTest.cs" />
+    <Compile Include="EntiteTourner.cs" />
+    <Compile Include="EnvoyerMail.cs" />
+    <Compile Include="FenetreColis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FenetreColis.Designer.cs">
+      <DependentUpon>FenetreColis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaceNouveauClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaceNouveauClient.Designer.cs">
+      <DependentUpon>interfaceNouveauClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaceNouveauColis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaceNouveauColis.Designer.cs">
+      <DependentUpon>interfaceNouveauColis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaceNouveauEmployer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaceNouveauEmployer.Designer.cs">
+      <DependentUpon>interfaceNouveauEmployer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfacetest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfacetest.Designer.cs">
+      <DependentUpon>interfacetest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="motsdepasseoublier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="motsdepasseoublier.Designer.cs">
+      <DependentUpon>motsdepasseoublier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="principale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="principale.Designer.cs">
+      <DependentUpon>principale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FenetreColis.resx">
+      <DependentUpon>FenetreColis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaceNouveauClient.resx">
+      <DependentUpon>interfaceNouveauClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaceNouveauColis.resx">
+      <DependentUpon>interfaceNouveauColis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaceNouveauEmployer.resx">
+      <DependentUpon>interfaceNouveauEmployer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfacetest.resx">
+      <DependentUpon>interfacetest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="motsdepasseoublier.resx">
+      <DependentUpon>motsdepasseoublier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="principale.resx">
+      <DependentUpon>principale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
